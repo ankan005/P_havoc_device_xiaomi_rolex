@@ -28,6 +28,10 @@ include $(DEVICE_PATH)/product/*.mk
 $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
 #$(call inherit-product, vendor/havoc/build/core/qcom_utils.mk)
 
+# Lights
+PRODUCT_PACKAGES += \
+    lights.msm8937
+
 # Camera fixes temp hack by Sunny and Murali's zip
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilds/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \
