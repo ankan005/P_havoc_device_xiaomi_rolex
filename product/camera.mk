@@ -9,7 +9,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.msm8937 \
     libmm-qcamera
-	
+
 # Camera HAL
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
