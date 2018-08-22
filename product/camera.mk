@@ -6,22 +6,22 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
 # Camera
-#PRODUCT_PACKAGES += \
-#    camera.msm8937 \
-#    libmm-qcamera
+PRODUCT_PACKAGES += \
+    camera.msm8937 \
+    libmm-qcamera
 
 # Camera HAL
-#PRODUCT_PACKAGES += \
-#    camera.device@1.0-impl \
-#    camera.device@3.2-impl \
-#    android.hardware.camera.provider@2.4-impl \
-#    android.hardware.camera.provider@2.4-service \
-#    vendor.qti.hardware.camera.device@1.0 \
-#    vendor.qti.hardware.camera.device@1.0_vendor
+PRODUCT_PACKAGES += \
+    camera.device@1.0-impl \
+    camera.device@3.2-impl \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service \
+    vendor.qti.hardware.camera.device@1.0 \
+    vendor.qti.hardware.camera.device@1.0_vendor
 
 # Snap
-#PRODUCT_PACKAGES += \
-#    Snap
+PRODUCT_PACKAGES += \
+    Snap
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
