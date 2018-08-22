@@ -66,12 +66,12 @@ PRODUCT_PACKAGES += \
     rcs_service_api.xml
 
 # Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext \
-    ims-ext-common
+#PRODUCT_PACKAGES += \
+#    telephony-ext \
+#    ims-ext-common
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+#PRODUCT_BOOT_JARS += \
+#    telephony-ext
 
 # Whitelisted app
 PRODUCT_COPY_FILES += \
