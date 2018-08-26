@@ -2055,7 +2055,6 @@ lib64/vendor.qti.gnss@1.0.so|efac71bc5a75ad147f5916feef05b58ec3259ffb
 vendor/bin/hw/vendor.qti.gnss@1.0-service|424a63e998c4e4386b25493b5c37f18a00facbba
 vendor/bin/loc_launcher|1ac76ecad9bf11373539b3e993b8f2dfbc1def6b
 vendor/bin/lowi-server|c3a5c824f985c46b769f792f2114280351c239cc
-vendor/bin/slim_daemon|1fd8928f0e992ce0ddb69deef5b87e003d8c6c62
 vendor/bin/xtra-daemon|3701c7c81d69d79db910ba0cb51ff00451e5ac90
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/init/vendor.qti.gnss@1.0-service.rc|ba25c7c3e8c3ef52b15f7f420012c80a4489a784
@@ -2084,7 +2083,7 @@ vendor/lib64/libquipc_os_api.so|179d366fdab056c403a3fa067000bb53b3ca9d7f
 vendor/lib64/libulp2.so|a11cb7901718365962ea85c8f1b82cc18d996628
 vendor/lib64/libxtadapter.so|dd494a0618b53d4c8f6fee88d13daadca1ff1ab7
 vendor/lib64/libxtwifi_ulp_adaptor.so|9e3d3b35ca62d3db539ae7fc28a14a8dbc8d8a8c
-vendor/lib64/vendor.qti.gnss@1.0_vendor.so|de8d436508413b3b9de93940a120cca028af4b3d
+vendor/lib64/vendor.qti.gnss@1.0_vendor.so|bb42a16f1344d5a724d4380024b03471fdf6222b
 
 # Graphics - from vivo 1724 - OPM1.171019.011
 vendor/lib/egl/eglsubAndroid.so|e575297e57373431f18d3ecd96bbc6bff29d5a95
@@ -2389,7 +2388,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so|e9bcbdf65
 vendor/radio/qcril_database/qcril.db|8405d20c8e1184c79eba1c4f19ecfb92d7529bdf
 
 # Radio IMS - from tissot - OPR1.170623.026
--app/ims/ims.apk|42881dc3adfd5e4f716bdb4d510ca45a0b415b74
+-app/ims/ims.apk|55b0dc85d01c9b25c9544737cef6291a678dc4f2
 -app/imssettings/imssettings.apk|e09821a12dc92d138e82d68b0d63e67f497b6106
 etc/permissions/qti-vzw-ims-internal.xml|3e41b645dd4ad8bad6775c103a34bfd7a507a4f7
 lib/com.qualcomm.qti.imscmservice@1.0.so|1dec77e0803ea99d85c87874c81c54688d4bd59d
