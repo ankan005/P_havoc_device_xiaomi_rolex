@@ -16,14 +16,11 @@
 #
 
 # Inherit from those products. Most specific first.
-TARGET_GAPPS_ARCH := arm64
-TARGET_DENSITY := xhdpi
-TARGET_BOOT_ANIMATION_RES := 720
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Inherit from riva device
 $(call inherit-product, device/xiaomi/riva/device.mk)
@@ -32,7 +29,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := riva
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 5A
-PRODUCT_NAME := aosp_riva
+PRODUCT_NAME := nitrogen_riva
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
