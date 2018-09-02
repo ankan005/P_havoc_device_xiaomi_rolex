@@ -60,7 +60,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilds/vendor/lib/libsdmextension.so:vendor/lib/libsdmextension.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib/libsdmutils.so:vendor/lib/libsdmutils.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib/vendor.display.color@1.0_vendor.so:vendor/lib/vendor.display.color@1.0_vendor.so \
-    $(LOCAL_PATH)/prebuilds/vendor/lib/vendor.display.config@1.0_vendor:vendor/lib/vendor.display.config@1.0_vendor.so \
+    $(LOCAL_PATH)/prebuilds/vendor/lib/vendor.display.config@1.0_vendor.so:vendor/lib/vendor.display.config@1.0_vendor.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib/vendor.display.config@1.1_vendor.so:vendor/lib/vendor.display.config@1.1_vendor.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib/vendor.display.postproc@1.0_vendor.so:vendor/lib/vendor.display.postproc@1.0_vendor.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so:vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so \
@@ -76,7 +76,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilds/vendor/lib64/lib64sdmextension.so:vendor/lib64/lib64sdmextension.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib64/lib64sdmutils.so:vendor/lib64/lib64sdmutils.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib64/vendor.display.color@1.0_vendor.so:vendor/lib64/vendor.display.color@1.0_vendor.so \
-    $(LOCAL_PATH)/prebuilds/vendor/lib64/vendor.display.config@1.0_vendor:vendor/lib64/vendor.display.config@1.0_vendor.so \
+    $(LOCAL_PATH)/prebuilds/vendor/lib64/vendor.display.config@1.0_vendor.so:vendor/lib64/vendor.display.config@1.0_vendor.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib64/vendor.display.config@1.1_vendor.so:vendor/lib64/vendor.display.config@1.1_vendor.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib64/vendor.display.postproc@1.0_vendor.so:vendor/lib64/vendor.display.postproc@1.0_vendor.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so:vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so \
