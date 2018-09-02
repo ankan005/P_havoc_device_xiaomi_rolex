@@ -67,14 +67,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilds/vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so:vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so:vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib/hw/hwcomposer.msm8937.so:vendor/lib/hw/hwcomposer.msm8937.so \
-    $(LOCAL_PATH)/prebuilds/vendor/lib64/lib64bfqio_vendor.so:vendor/lib64/lib64bfqio_vendor.so \
-    $(LOCAL_PATH)/prebuilds/vendor/lib64/lib64sd_sdk_display.so:vendor/lib64/lib64sd_sdk_display.so \
-    $(LOCAL_PATH)/prebuilds/vendor/lib64/lib64sdm-color.so:vendor/lib64/lib64sdm-color.so \
-    $(LOCAL_PATH)/prebuilds/vendor/lib64/lib64sdmcore.so:vendor/lib64/lib64sdmcore.so \
-    $(LOCAL_PATH)/prebuilds/vendor/lib64/lib64sdm-diag.so:vendor/lib64/lib64sdm-diag.so \
-    $(LOCAL_PATH)/prebuilds/vendor/lib64/lib64sdm-disp-vndapis.so:vendor/lib64/lib64sdm-disp-vndapis.so \
-    $(LOCAL_PATH)/prebuilds/vendor/lib64/lib64sdmextension.so:vendor/lib64/lib64sdmextension.so \
-    $(LOCAL_PATH)/prebuilds/vendor/lib64/lib64sdmutils.so:vendor/lib64/lib64sdmutils.so \
+    $(LOCAL_PATH)/prebuilds/vendor/lib64/libbfqio_vendor.so:vendor/lib64/libbfqio_vendor.so \
+    $(LOCAL_PATH)/prebuilds/vendor/lib64/libsd_sdk_display.so:vendor/lib64/libsd_sdk_display.so \
+    $(LOCAL_PATH)/prebuilds/vendor/lib64/libsdm-color.so:vendor/lib64/libsdm-color.so \
+    $(LOCAL_PATH)/prebuilds/vendor/lib64/libsdmcore.so:vendor/lib64/libsdmcore.so \
+    $(LOCAL_PATH)/prebuilds/vendor/lib64/libsdm-diag.so:vendor/lib64/libsdm-diag.so \
+    $(LOCAL_PATH)/prebuilds/vendor/lib64/libsdm-disp-vndapis.so:vendor/lib64/libsdm-disp-vndapis.so \
+    $(LOCAL_PATH)/prebuilds/vendor/lib64/libsdmextension.so:vendor/lib64/libsdmextension.so \
+    $(LOCAL_PATH)/prebuilds/vendor/lib64/libsdmutils.so:vendor/lib64/libsdmutils.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib64/vendor.display.color@1.0_vendor.so:vendor/lib64/vendor.display.color@1.0_vendor.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib64/vendor.display.config@1.0_vendor.so:vendor/lib64/vendor.display.config@1.0_vendor.so \
     $(LOCAL_PATH)/prebuilds/vendor/lib64/vendor.display.config@1.1_vendor.so:vendor/lib64/vendor.display.config@1.1_vendor.so \
