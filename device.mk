@@ -88,3 +88,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.spectrum.rc \
     init.spectrum.sh
+
+export export HAVOC_BUILD_TYPE=Official
