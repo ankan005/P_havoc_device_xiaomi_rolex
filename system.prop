@@ -4,3 +4,7 @@
 
 # DT2W: Enabled (rolex.dt2w=1); Disabled (rolex.dt2w=0)
 rolex.dt2w=1
+
+#Lag fixes
+debug.hwui.renderer=opengl
+debug.hwui.use_buffer_age=false

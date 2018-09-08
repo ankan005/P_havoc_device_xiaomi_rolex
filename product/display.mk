@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.hwui.renderer=opengl \
     debug.hwui.profile=true \
     debug.egl.hw=1 \
     debug.enable.sglscale=1 \
