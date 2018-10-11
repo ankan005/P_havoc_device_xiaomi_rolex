@@ -26,7 +26,6 @@ include $(DEVICE_PATH)/product/*.mk
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
-$(call inherit-product, vendor/havoc/config/qcom_utils.mk)
 
 # Camera fixes temp hack by Sunny and Murali's zip
 PRODUCT_COPY_FILES += \
