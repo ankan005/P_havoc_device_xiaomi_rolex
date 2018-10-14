@@ -19,9 +19,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0_vendor
 
-# Snap
-#PRODUCT_PACKAGES += \
-#    Snap
+# Camera2
+PRODUCT_PACKAGES += \
+    Camera2
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
