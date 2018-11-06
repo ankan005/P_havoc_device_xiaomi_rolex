@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/havoc/config/common.mk)
+$(call inherit-product, vendor/du/config/common.mk)
 
 # Inherit from riva device
 $(call inherit-product, device/xiaomi/rolex/device.mk)
@@ -29,7 +29,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 4A
-PRODUCT_NAME := havoc_rolex
+PRODUCT_NAME := du_rolex
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
