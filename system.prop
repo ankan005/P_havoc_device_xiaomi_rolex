@@ -8,3 +8,9 @@ rolex.dt2w=1
 #Lag fixes
 debug.hwui.renderer=opengl
 debug.hwui.use_buffer_age=false
+
+# USB debugging at boot
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
