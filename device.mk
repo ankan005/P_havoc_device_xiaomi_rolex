@@ -26,7 +26,7 @@ include $(DEVICE_PATH)/product/*.mk
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
-$(call inherit-product, vendor/havoc/build/core/qcom_utils.mk)
+#$(call inherit-product, vendor/havoc/build/core/qcom_utils.mk)
 
 # Camera fixes temp hack by Sunny and Murali's zip
 PRODUCT_COPY_FILES += \
@@ -88,5 +88,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.spectrum.rc \
     init.spectrum.sh
+
+# Telephony packages
+PRODUCT_PACKAGES += \
+    ims-ext-common \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 export export HAVOC_BUILD_TYPE=Official
