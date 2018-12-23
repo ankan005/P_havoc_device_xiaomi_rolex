@@ -111,7 +111,6 @@ vendor.display.disable_skip_validate=1 \
 vendor.display.perf_hint_window=50 \
 video.accelerate.hw=1
 video.accelerate.hw=1 \
-debug.sdm.support_writeback=0 \
 debug.hwui.use_buffer_age=false
 
 # Property to enable display default color mode
@@ -217,7 +216,6 @@ persist.rild.nitz_short_ons_3=""
 
 # Optimize
 PRODUCT_PROPERTY_OVERRIDES += \
-sys.use_fifo_ui=1 \
 ro.sys.fw.dex2oat_thread_count=4
 
 # Radio
